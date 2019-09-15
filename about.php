@@ -48,27 +48,27 @@
                 <!-- Links -->
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#page-top">
+                        <a class="nav-link js-scroll-trigger" href="index.html">
                             Home
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#feature">
+                        <a class="nav-link js-scroll-trigger" href="#">
                             Services
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#about">
+                        <a class="nav-link js-scroll-trigger" href="#">
                             Benefits
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#service">
+                        <a class="nav-link js-scroll-trigger" href="#">
                             About Us
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#portfolio">
+                        <a class="nav-link js-scroll-trigger" href="submit.php">
                             Submit
                         </a>
                     </li>

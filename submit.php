@@ -48,7 +48,7 @@
         <div class="container">
 
             <!-- Brand -->
-            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+            <a class="navbar-brand js-scroll-trigger" href="index.html">
                 <h2>Car Energies</h2>
 
             </a>
@@ -70,12 +70,12 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#feature">
+                        <a class="nav-link js-scroll-trigger" href="#">
                             Services
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#about">
+                        <a class="nav-link js-scroll-trigger" href="#">
                             Benefits
                         </a>
                     </li>
