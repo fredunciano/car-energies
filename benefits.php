@@ -48,7 +48,7 @@
             <div class="row ">
                 <div class="col-lg-6">
                     <div class="about-img">
-                        <img src="assets/img/sidecar.png" alt="" class="img-fluid">
+                        <img src="assets/img/family.png" alt="" class="img-fluid">
                     </div>
                 </div>
 
