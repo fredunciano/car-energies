@@ -46,8 +46,8 @@
         <section class="section " id="about">
         <div class="container-fluid">
             <div class="row ">
-                <div class="col-lg-2"></div>
-                <div class="col-lg-4">
+                <div class="col-lg-1"></div>
+                <div class="col-lg-5">
                     <div class="about-img">
                         <img src="assets/img/business-woman.png" alt="" class="" height="500">
                     </div>
