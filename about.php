@@ -1,83 +1,4 @@
-<!doctype html>
-<html lang="en">
-
-<head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <meta name="description" content="Coral - Onepage portfolio Template">
-    <meta name="author" content="esrat">
-
-    <!-- Fontawseom Icon CSS -->
-    <link rel="stylesheet" href="assets/css/all.css">
-    <link rel="stylesheet" href="assets/css/carousel.css">
-
-    <!-- Theme CSS -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/responsive.css">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-   <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-
-    <title>CE- Car Energies</title>
-</head>
-
-<body id="page-top">
-
-    <!-- NAVBAR
-    ================================================= -->
-    <nav class="navbar navbar-expand-lg navbar-dark navbar-togglable  fixed-top " id="mainNav">
-        <div class="container">
-
-            <!-- Brand -->
-            <a class="navbar-brand js-scroll-trigger" href="#page-top">
-                <h2>Car Energies</h2>
-
-            </a>
-
-            <!-- Toggler -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon-bar">
-                    <i class="fa fa-bars"></i>
-                </span>
-            </button>
-
-            <!-- Collapse -->
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-                <!-- Links -->
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="index.html">
-                            Home
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#">
-                            Services
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#">
-                            Benefits
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#">
-                            About Us
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="submit.php">
-                            Submit
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <!-- / .navbar-collapse -->
-        </div>
-        <!-- / .container -->
-    </nav>
+<?php include 'header.php'; ?>
 
         <section class="section section-top section-full" style="max-height: 50vh;">
 
@@ -96,7 +17,7 @@
 
                         <!-- Heading -->
                         <h1 class="text-white text-center mb-4 display-4 font-weight-bold">
-                            About Car Energies' Capability
+                            About Car Energies
                         </h1>
 
                         <!-- Subheading -->
@@ -136,47 +57,18 @@
                         <h2 class="display-5">
                             About Car Energies and Julia
                         </h2>
+                        <p>At CarEnergies.com, we specialize in analyzing the energies of cars, motorcycles, SUV, and trucks. Julia is very sensitive to the energies of objects and senses the defective or broken parts of vehicles. She has helped people to choose best used vehicle and stay away from buying lemons. She can help you too.</p>
                         <p>Julia B. is very sensitive to subtle energies of objects, animals and people. She consumes energy doing this evaluation. She can evaluate a maximum of 100 automobiles a day. And for now, she will check up to 3 cars per person free of charge (and no more).
 Please note that this is for your personal use, and there are no guarantees that the car she approves, will be completely trouble free. But she has a proven track record of being %95 accurate in her evaluation..</p>
+<p>Julia’s  service can save you a lot of time taking the car you are considering buying to a mechanic, if at all possible. What better way to check the car from deep within when you are visiting a used car dealer, a private seller or a pre-auction car lot.</p>
 
 
                        <p><strong>Save money and time</strong></p>
 
 <p><strong>Don't buy another lemon</strong></p>
-<p>purchasing the right used car can be challenging, time consuming and quite a headache. And still there is no guarantee that you haven't picked a lemon
-</p>
-<p>For a limited time only, Julia will check the energy of the car you are considering to buy free of charge!.
-Fill out a simple table with your name email address, your City, State and Country.
- and upload 4 recent photos of the car in the locations shown in here ( one from front of the car (hood up), one from behind the car and one from each side of the car, doors open) See the examples shown here. 
-The website will generate a case number for each car you upload photos.
-Julia will check the cars energy and will list existing potential problems that you may encounter if you decide to purchase the car. And will send the report to you in an email.
-In most cases, it will take maximum 24 hours, possibly much sooner. 
-Julia is very sensitive to subtle energies of objects, animals and people. She consumes energy doing this evaluation. She can evaluate a maximum of 100 automobiles a day. And for now, she will check up to 3 cars per person free of charge for you (and no more).
-Please note that this is for your personal use, and there are no guarantees that the car she approves, will be completely trouble free. But she has a proven track record of being %95 accurate in her evaluation.
-Your best bet to stay away from buying another lemon.
-Have Julia’s repot in your hand when you are going to the auction to buy that SUV, truck or automobile.
-Check for possible problems before you buy that used car.
-A new best way to check used car mechanically from deep within
-At CarEnergies.com, we specialize in analyzing the energies of cars, motorcycles, SUV, and trucks. Julia is very sensitive to the energies of objects and senses the defective or broken parts of vehicles. She has helped people to choose best used vehicle and stay away from buying lemons. She can help you too.
-
-Unparalleled service anywhere in the world
-Where else can someone look at the photos of a car and see the failed arts, hidden problems, covered up headaches?
-Julia can spot the troubles, accidents, damaged auto parts on cars, automobiles, trucks, motorcycles even bicycles. Even the best mechanics with the latest technologies who can check  a used car and give you a report of list of possible repairs can not detect the parts that are working at the moment of examination, but are done, used up and ready and about to break at any moment.
-
-No other person in the world (that we know) can do this, let alone do it online by just seeing  a few photos online!
-
-Avoid buying your next cars that need cosly repairs, wasting your time and money. 
-Julia service can save you a lot of time taking the cat=r you are considering to buy to a mechanice, if at all possible. What better way to check the car from deep within when you are vising a used cad dealer, a private seller or a pre-auction car lot.
-This is All you need to do; Take 5 fresh photos of the car, SUV, truck, or motorcycle* that you are considering for purchase. Fill out the form here, upload the fill out your name, email address, city, State and click send.  Julia evaluates the car energies and send you an email with report like this. 
-
-Then you decide if you still want to buy it. And you have a poewerful tool to negotiate a better deal from the seller. 
-
-Imagine going to the seller knowing not only the condition of all parts of the vehicle, but also some trouble spots that even the seller may honestly not know. Even if you do not purchase it, the seller now can know the invaluable information on the coming future problems on the vehicle.
-
-What if you don’t have all the photos? That is ok, provide as many as you have (up to 5). But then Julia may not be able to provide you with a detailed report on the car.
-
-*For a motorcycle, only 2 photos is enough, one from each side of it.
-……………………………………………………………………………………………………………………………………………………
+<p>purchasing the right used car can be challenging, time consuming and quite a headache. And still there is no guarantee that you haven't picked a lemon</p>
+<p>Where else can someone look at the photos of a car and see the failed arts, hidden problems, covered up headaches?</p>
+<p>Julia can spot the troubles, accidents, damaged auto parts on cars, automobiles, trucks, motorcycles even bicycles. Even the best mechanics with the latest technologies who can check  a used car and give you a report of list of possible repairs can not detect the parts that are working at the moment of examination, but are done, used up and ready and about to break at any moment.
 </p>
 
                         

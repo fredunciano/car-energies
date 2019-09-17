@@ -1,27 +1,4 @@
-<!doctype html>
-<html lang="en">
-
-<head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <meta name="description" content="Car Energies - Free Online Car Consultancy">
-    <meta name="author" content="esrat">
-
-    <!-- Fontawseom Icon CSS -->
-    <link rel="stylesheet" href="assets/css/all.css">
-    <link rel="stylesheet" href="assets/css/carousel.css">
-
-    <!-- Theme CSS -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/responsive.css">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-   <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-
-    <title>CE- Car Energies</title>
-</head>
+<?php include 'header.php'; ?>
 <style>
     .box{
     padding:60px 0px;
@@ -39,65 +16,27 @@
 
 .fa{
      color:#4183D7;
+
 }
+       .mybox:hover{
+            -webkit-box-shadow: 6px 7px 25px -10px rgba(0,0,0,0.48);
+            -moz-box-shadow: 6px 7px 25px -10px rgba(0,0,0,0.48);
+            box-shadow: 6px 7px 25px -10px rgba(0,0,0,0.48);
+            transition: all 500ms ease;
+        }
+        .shadowbox{
+            -webkit-box-shadow: 6px 7px 25px -10px rgba(0,0,0,0.48);
+            -moz-box-shadow: 6px 7px 25px -10px rgba(0,0,0,0.48);
+            box-shadow: 6px 7px 25px -10px rgba(0,0,0,0.48);
+            transition: all 500ms ease;
+        }
+    .pt-50{
+        padding-top: 50px;
+    }
+    .pb-30{
+        padding-bottom: 30px
+    }
     </style>
-
-<body id="page-top">
-
-    <!-- NAVBAR
-    ================================================= -->
-    <nav class="navbar navbar-expand-lg navbar-dark navbar-togglable  fixed-top " id="mainNav">
-        <div class="container">
-
-            <!-- Brand -->
-            <a class="navbar-brand js-scroll-trigger" href="#page-top">
-                <h2>Car Energies</h2>
-
-            </a>
-
-            <!-- Toggler -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon-bar">
-                    <i class="fa fa-bars"></i>
-                </span>
-            </button>
-
-            <!-- Collapse -->
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-                <!-- Links -->
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="index.html">
-                            Home
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#feature">
-                            Services
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#about">
-                            Benefits
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="about.php">
-                            About Us
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="submit.php">
-                            Submit
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <!-- / .navbar-collapse -->
-        </div>
-        <!-- / .container -->
-    </nav>
-
     <!-- HERO
     ================================================== -->
     <section class="section section-top section-full">
@@ -113,9 +52,9 @@
                 <div class="col-md-12">
                     <div class="banner-content">
                         <!-- Preheading -->
-                        <p class="text-white text-uppercase text-center text-xs">
+                       <!--  <p class="text-white text-uppercase text-center text-xs">
                             Meet <span>Julia</span>
-                        </p>
+                        </p> -->
 
                         <!-- Heading -->
                         <h1 class="text-white text-center mb-4 display-4 font-weight-bold">
@@ -130,7 +69,7 @@
                         <!-- Button -->
                         <p class="text-center mb-0" >
                             <a href="#" target="_blank" class="btn btn-primary ">
-                                Contact Now
+                                TRY NOW FOR FREE!
                             </a>
                         </p>
                     </div>
@@ -167,7 +106,7 @@
                         <h2 class="display-5">
                             About Car Energies
                         </h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt vitae mauris quis porta. Pellentesque eu turpis metus. Phasellus in tempor ligula. Praesent hendrerit non elit non elementum. Sed ac volutpat augue, pharetra volutpat nisl. Praesent porttitor convallis nisi, at dictum nisl. Quisque ac interdum neque. Nulla facilisi.</p>
+                        <p>At CarEnergies.com, we specialize in analyzing the energies of cars, motorcycles, SUV, and trucks. Julia is very sensitive to the energies of objects and senses the defective or broken parts of vehicles. She has helped people to choose best used vehicle and stay away from buying lemons. She can help you too.</p>
 
 
                         <ul class="list-unstyled skill-list ">
@@ -184,7 +123,7 @@
             </div>
         </div>
     </section>
-      <section class="section bg-light" id="whyus">
+      <section class="section bg-light pt-50 pb-30" id="whyus">
         <!-- Content -->
         <div class="container-fluid">
             <div class="row justify-content-center">
@@ -263,7 +202,7 @@
         </div>
     </section>
 
-    <section class="section" id="feature">
+    <section class="section pt-50 pb-30" id="feature">
                 <div class="container-fluid">
                     <div class="row justify-content-center mb-4">
                         <div class="col-md-8 col-lg-6 text-center">
@@ -285,10 +224,10 @@
                                 
                                 <div class="service-content ">
                                     <h4><span>TAKE CAR'S</span> PICTURE</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. asperiores rem voluptas nobis.</p>
+                                    <p>Upload 4 recent photos of the car in(front,read,left side,rightside)</p>
                                 </div>
-                                <div class="service-icon ">
-                                    <i class="fas fa-users-cog"></i>
+                                <div class="">
+                                    <img src="assets/img/process/picture.png" width="110" height="110">
                                 </div>
                             </div>
                     </div>
@@ -297,10 +236,10 @@
                                 
                                 <div class="service-content ">
                                     <h4><span>SUBMIT DETAILS</span> THRU EMAIL</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. asperiores rem voluptas nobis.</p>
+                                    <p>Send us the pictures with your name, email address, state, city and country</p>
                                 </div>
-                                <div class="service-icon ">
-                                    <i class="fas fa-users-cog"></i>
+                                <div class="">
+                                    <img src="assets/img/process/email.png" width="130" height="130">
                                 </div>
                             </div>
                     </div>
@@ -315,24 +254,24 @@
                      <div class=" row col-lg-4 d-flex flex-column align-items-start">
                     <div class="col-md-6">
                           <div class="service-block d-flex">
-                                 <div class="service-icon ">
-                                    <i class="fas fa-users-cog"></i>
+                                 <div class="">
+                                    <img src="assets/img/process/diagnose.png" width="200" height="200">
                                 </div>
                                 <div class="service-content ">
                                     <h4><span>CAR</span> DIAGNOSTIC</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. asperiores rem voluptas nobis.</p>
+                                    <p>We are going to check the car's energy thru the sent photos from you and list existing potential problems if theres any</p>
                                 </div>
                                
                             </div>
                     </div>
                      <div class="col-md-6">
                           <div class="service-block d-flex">
-                                 <div class="service-icon ">
-                                    <i class="fas fa-users-cog"></i>
+                                 <div class="" style="margin-right: 10px">
+                                   <img src="assets/img/process/report.jpg" width="140" height="140">
                                 </div>
                                 <div class="service-content ">
                                     <h4><span>RESOLUTION &</span> RECOMMENDATION</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. asperiores rem voluptas nobis.</p>
+                                    <p>An email will be sent back to you consisting with diagnostic report up to 12-24 hours</p>
                                 </div>
                                
                             </div>
@@ -342,7 +281,7 @@
             </div>
         </div> <!-- / .container -->
     </section>
-    <section class="section">
+    <section class="section pt-50 pb-30">
                 <section class="section" style="background-image: url(assets/img/testimonies/bg.jpg); background-attachment: fixed;background-position: center;background-repeat: no-repeat; background-size: cover; height: auto">
            <div class="row justify-content-center mb-5">
                 <div class="col-md-8 col-lg-6 text-center">
@@ -523,128 +462,73 @@
     </section>
 
     </section>
-    <section class="section">
-            <div class="box">
-    <div class="container">
-        <div class="row">
-             
-                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-               
-                    <div class="box-part text-center">
+
+    <section class="section pb-30 pt-50" >
+            <!-- <div class="box"> -->
+            <div class="container">
+                <div class="row">
+                     
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 mybox">
+                       
+                            <div class="box-part text-center">
+                                
+                                <!-- <i class="fas fa-instagram fa-3x" aria-hidden="true"></i> -->
+                                <!-- <i class="fab fa-facebook-f fa-3x"></i> -->
+                                <img src="assets/img/socmed/insta.png" width="100" height="100">
+                                <div class="title">
+                                    <h4>Instagram</h4>
+                                </div>
+                                
+                                <div class="text">
+                                    <span>Lorem ipsum dolor sit amet, id quo eruditi eloquentiam. Assum decore te sed. Elitr scripta ocurreret qui ad.</span>
+                                </div>
+                                
+                                <a href="#">Learn More</a>
+                                
+                             </div>
+                        </div>   
                         
-                        <!-- <i class="fas fa-instagram fa-3x" aria-hidden="true"></i> -->
-                        <i class="fab fa-facebook-f fa-3x"></i>
-                        <div class="title">
-                            <h4>Instagram</h4>
-                        </div>
+                         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 shadowbox ">
+                       
+                            <div class="box-part text-center">
+                                
+                                <!-- <i class="fas fa-twitter fa-3x" aria-hidden="true"></i> -->
+                                 <img src="assets/img/socmed/twiter.png" width="100" height="100">
+                                <div class="title">
+                                    <h4>Twitter</h4>
+                                </div>
+                                
+                                <div class="text">
+                                    <span>Lorem ipsum dolor sit amet, id quo eruditi eloquentiam. Assum decore te sed. Elitr scripta ocurreret qui ad.</span>
+                                </div>
+                                
+                                <a href="#">Learn More</a>
+                                
+                             </div>
+                        </div>   
                         
-                        <div class="text">
-                            <span>Lorem ipsum dolor sit amet, id quo eruditi eloquentiam. Assum decore te sed. Elitr scripta ocurreret qui ad.</span>
-                        </div>
-                        
-                        <a href="#">Learn More</a>
-                        
-                     </div>
-                </div>   
-                
-                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-               
-                    <div class="box-part text-center">
-                        
-                        <i class="fas fa-twitter fa-3x" aria-hidden="true"></i>
-                    
-                        <div class="title">
-                            <h4>Twitter</h4>
-                        </div>
-                        
-                        <div class="text">
-                            <span>Lorem ipsum dolor sit amet, id quo eruditi eloquentiam. Assum decore te sed. Elitr scripta ocurreret qui ad.</span>
-                        </div>
-                        
-                        <a href="#">Learn More</a>
-                        
-                     </div>
-                </div>   
-                
-                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-               
-                    <div class="box-part text-center">
-                        
-                       <i class="fab fa-facebook-f fa-3x"></i>
-                        
-                        <div class="title">
-                            <h4>Facebook</h4>
-                        </div>
-                        
-                        <div class="text">
-                            <span>Lorem ipsum dolor sit amet, id quo eruditi eloquentiam. Assum decore te sed. Elitr scripta ocurreret qui ad.</span>
-                        </div>
-                        
-                        <a href="#">Learn More</a>
-                        
-                     </div>
-                </div>   
-                
-                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-               
-                    <div class="box-part text-center">
-                        
-                        <i class="fas fa-pinterest-p fa-3x" aria-hidden="true"></i>
-                        
-                        <div class="title">
-                            <h4>Pinterest</h4>
-                        </div>
-                        
-                        <div class="text">
-                            <span>Lorem ipsum dolor sit amet, id quo eruditi eloquentiam. Assum decore te sed. Elitr scripta ocurreret qui ad.</span>
-                        </div>
-                        
-                        <a href="#">Learn More</a>
-                        
-                     </div>
-                </div>   
-                
-                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-               
-                    <div class="box-part text-center">
-                        
-                        <i class="fas fa-google-plus fa-3x" aria-hidden="true"></i>
-                    
-                        <div class="title">
-                            <h4>Google</h4>
-                        </div>
-                        
-                        <div class="text">
-                            <span>Lorem ipsum dolor sit amet, id quo eruditi eloquentiam. Assum decore te sed. Elitr scripta ocurreret qui ad.</span>
-                        </div>
-                        
-                        <a href="#">Learn More</a>
-                        
-                     </div>
-                </div>   
-                
-                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-               
-                    <div class="box-part text-center">
-                        
-                        <i class="fas fa-github fa-3x" aria-hidden="true"></i>
-                        
-                        <div class="title">
-                            <h4>Github</h4>
-                        </div>
-                        
-                        <div class="text">
-                            <span>Lorem ipsum dolor sit amet, id quo eruditi eloquentiam. Assum decore te sed. Elitr scripta ocurreret qui ad.</span>
-                        </div>
-                        
-                        <a href="#">Learn More</a>
-                        
-                     </div>
-                </div>
-        
-        </div>      
+                         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 mybox">
+                       
+                            <div class="box-part text-center">
+                                
+                               <!-- <i class="fab fa-facebook-f fa-3x"></i> -->
+                               <img src="assets/img/socmed/facebook.png" width="100" height="100">
+                                
+                                <div class="title">
+                                    <h4>Facebook</h4>
+                                </div>
+                                
+                                <div class="text">
+                                    <span>Lorem ipsum dolor sit amet, id quo eruditi eloquentiam. Assum decore te sed. Elitr scripta ocurreret qui ad.</span>
+                                </div>
+                                
+                                <a href="#">Learn More</a>
+                                
+                             </div>
+                        </div>   
+                </div>      
     </div>
-</div>
+<!-- </div> -->
     </section>
 
 
@@ -686,71 +570,7 @@
   
 
 
-    <!-- Pricing
-    ================================================== -->
-    <section class="section" id="pricing">
-        <div class="container">
-            <div class="row mb-4">
-                <div class="col-md-6 col-lg-4 ">
-
-                    <!-- Heading -->
-                    <h2 class="lg-title mb-2 ">
-                        Affordable Pricing Plan
-                    </h2>
-
-                    <!-- Subheading -->
-                    <p class="my-4 ">
-                        No Need to worry about pricing plan. You may have your own custom pricing plan .
-                    </p>
-
-                    <a href="#contact" class="btn btn-primary">Contact Now</a>
-                    <p class="text-primary mt-3">*Pricing plan may vary to work load</p>
-                </div>
-
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="pricing-block">
-                        <h2>Basic plan</h2>
-
-                        <h3 class="price my-3 ">
-                            120 <small>$</small>
-                        </h3>
-
-                        <ul class="list-unstyled">
-                            <li>PSD to html</li>
-                            <li>1 onepage</li>
-                            <li>Clean design</li>
-                            <li>1 Revision</li>
-                            <li>Well Documented</li>
-                        </ul>
-
-                        <a href="#" class="btn btn-outline-dark">Purchase now</a>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="pricing-block">
-                        <h2>Standard plan</h2>
-
-                        <h3 class="price my-3 ">
-                            320 <small>$</small>
-                        </h3>
-
-                        <ul class="list-unstyled">
-                            <li>PSD to html</li>
-                            <li>3 onepage</li>
-                            <li>Clean design</li>
-                            <li>Well Documented</li>
-                            <li>4 Revision</li>
-                            <li>Ultimate support</li>
-                        </ul>
-
-                        <a href="#" class="btn btn-outline-dark">Purchase now</a>
-                    </div>
-                </div>
-            </div>
-            <!-- / .row -->
-        </div>
-    </section>
+   
 
     <!-- Contact
     ================================================== -->
